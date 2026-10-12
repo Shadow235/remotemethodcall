@@ -1,0 +1,55 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Sample.Server/1.0.0": {
+        "dependencies": {
+          "Sample.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "Sample.Server.dll": {}
+        }
+      },
+      "RemoteMethodCall/1.0.0": {
+        "runtime": {
+          "RemoteMethodCall.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Sample.Contracts/1.0.0": {
+        "dependencies": {
+          "RemoteMethodCall": "1.0.0"
+        },
+        "runtime": {
+          "Sample.Contracts.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Sample.Server/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RemoteMethodCall/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sample.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/samples/">
+    <Project Path="samples/Sample.Client/Sample.Client.csproj" />
+    <Project Path="samples/Sample.Contracts/Sample.Contracts.csproj" />
+    <Project Path="samples/Sample.Server/Sample.Server.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/RemoteMethodCall/RemoteMethodCall.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/RemoteMethodCall.Tests/RemoteMethodCall.Tests.csproj" />
+  </Folder>
+</Solution>
